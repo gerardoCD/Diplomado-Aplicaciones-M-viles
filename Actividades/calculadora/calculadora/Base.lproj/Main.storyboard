@@ -28,26 +28,41 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="192.5" height="173"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Clear"/>
+                                                <connections>
+                                                    <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9zc-ju-RdD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygh-DE-Apu">
                                                 <rect key="frame" x="0.0" y="173" width="192.5" height="173"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="7"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aE8-bH-Rep"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDu-Qs-Z7G">
                                                 <rect key="frame" x="0.0" y="346" width="192.5" height="172.5"/>
                                                 <color key="backgroundColor" red="0.82031664252574121" green="0.86684342616580312" blue="0.79118227809109831" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="4"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IHV-CQ-ehW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rG-rk-W2c">
                                                 <rect key="frame" x="0.0" y="518.5" width="192.5" height="173"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="1"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ky-IL-SRa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09Q-3e-enf">
                                                 <rect key="frame" x="0.0" y="691.5" width="192.5" height="172.5"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="0"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MFl-tT-ohy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -73,16 +88,25 @@
                                                 <rect key="frame" x="0.0" y="173" width="192" height="173"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="8"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TEd-KW-Hg0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8J-IK-est">
                                                 <rect key="frame" x="0.0" y="346" width="192" height="172.5"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="5"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ibr-4G-hiJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlL-XC-Jyd">
                                                 <rect key="frame" x="0.0" y="518.5" width="192" height="173"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="2"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="glK-uC-g6y"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ho-Nd-3zf">
                                                 <rect key="frame" x="0.0" y="691.5" width="192" height="172.5"/>
@@ -112,16 +136,25 @@
                                                 <rect key="frame" x="0.0" y="173" width="192" height="173"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="9"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8a-eh-udP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgk-Ai-fFk">
                                                 <rect key="frame" x="0.0" y="346" width="192" height="172.5"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="6"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OHI-Sw-JT9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1EH-0A-SyY">
                                                 <rect key="frame" x="0.0" y="518.5" width="192" height="173"/>
                                                 <color key="backgroundColor" red="0.82031664250000003" green="0.86684342619999999" blue="0.79118227809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="3"/>
+                                                <connections>
+                                                    <action selector="ImprimePantalla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jr8-vm-6JK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKt-37-lay">
                                                 <rect key="frame" x="0.0" y="691.5" width="192" height="172.5"/>
@@ -190,7 +223,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aTa-Mf-wwr">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzb-k4-0JB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzb-k4-0JB">
                                         <rect key="frame" x="0.0" y="0.0" width="768" height="136"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <nil key="textColor"/>
@@ -219,6 +252,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="lblPantalla" destination="Nzb-k4-0JB" id="R6m-tj-JNy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

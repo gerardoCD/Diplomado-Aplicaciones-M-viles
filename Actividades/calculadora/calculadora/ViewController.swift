@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var cadena = ""
+    @IBOutlet weak var lblPantalla: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +20,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func ImprimePantalla(_ sender: UIButton) {
+        cadena += sender.currentTitle!
+        lblPantalla.text = cadena
+        
+    }
+    
+    @IBAction func btnClear(_ sender: UIButton) {
+        cadena = ""
+        lblPantalla.text = cadena
+    }
+    
 
 }
 
