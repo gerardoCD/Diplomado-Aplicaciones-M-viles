@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zkd-nZ-JDo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHH-0z-JpO">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tigre" translatesAutoresizingMaskIntoConstraints="NO" id="T3E-jW-Udn">
+                                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="T3E-jW-Udn" secondAttribute="bottom" constant="8" id="2zW-RW-zbe"/>
+                                    <constraint firstAttribute="trailing" secondItem="T3E-jW-Udn" secondAttribute="trailing" id="Ib8-Vk-xug"/>
+                                    <constraint firstItem="T3E-jW-Udn" firstAttribute="leading" secondItem="IHH-0z-JpO" secondAttribute="leading" id="sY9-fI-FmI"/>
+                                    <constraint firstItem="T3E-jW-Udn" firstAttribute="top" secondItem="IHH-0z-JpO" secondAttribute="top" id="ugi-Z4-4XD"/>
+                                    <constraint firstItem="T3E-jW-Udn" firstAttribute="top" secondItem="IHH-0z-JpO" secondAttribute="top" id="uxr-Mv-l0y"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IHH-0z-JpO" firstAttribute="leading" secondItem="nAR-qy-nKN" secondAttribute="leading" id="7SV-5p-Y0U"/>
+                            <constraint firstItem="IHH-0z-JpO" firstAttribute="trailing" secondItem="nAR-qy-nKN" secondAttribute="trailing" id="ZLL-hV-LMI"/>
+                            <constraint firstItem="IHH-0z-JpO" firstAttribute="top" secondItem="nAR-qy-nKN" secondAttribute="top" id="fDo-si-LSH"/>
+                            <constraint firstItem="IHH-0z-JpO" firstAttribute="bottom" secondItem="nAR-qy-nKN" secondAttribute="bottom" id="hKw-rK-Yu6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nAR-qy-nKN"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="T3E-jW-Udn" id="CoZ-vY-aq2"/>
+                        <outlet property="scrollView" destination="IHH-0z-JpO" id="eaU-Mx-LSF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tigre" width="1920" height="1080"/>
+    </resources>
+</document>
