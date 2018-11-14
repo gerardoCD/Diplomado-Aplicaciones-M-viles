@@ -1,0 +1,6 @@
+framework module Pods_MusicSongsAlamofire {
+  umbrella header "Pods-MusicSongsAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}

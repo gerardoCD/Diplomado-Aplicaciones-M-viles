@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351556D2B480131AEB3D329F /* Pods_MusicSongsAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5843F93CC419B77B9CAA19 /* Pods_MusicSongsAlamofire.framework */; };
+		5648DEF0219CB40E009A2027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5648DEEF219CB40E009A2027 /* AppDelegate.swift */; };
+		5648DEF2219CB40E009A2027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5648DEF1219CB40E009A2027 /* ViewController.swift */; };
+		5648DEF5219CB40E009A2027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5648DEF3219CB40E009A2027 /* Main.storyboard */; };
+		5648DEF7219CB40F009A2027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5648DEF6219CB40F009A2027 /* Assets.xcassets */; };
+		5648DEFA219CB40F009A2027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5648DEF8219CB40F009A2027 /* LaunchScreen.storyboard */; };
+		5648DF05219CB40F009A2027 /* MusicSongsAlamofireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5648DF04219CB40F009A2027 /* MusicSongsAlamofireTests.swift */; };
+		5648DF10219CB40F009A2027 /* MusicSongsAlamofireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5648DF0F219CB40F009A2027 /* MusicSongsAlamofireUITests.swift */; };
+		793048D681395A43F7B39D1F /* Pods_MusicSongsAlamofireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAE2AC955B3EFAC432F5529 /* Pods_MusicSongsAlamofireUITests.framework */; };
+		DBB5EFA4E60898972A0D60D4 /* Pods_MusicSongsAlamofireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F0B542A80F4DA2318E9F24 /* Pods_MusicSongsAlamofireTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5648DF01219CB40F009A2027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5648DEE4219CB40E009A2027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5648DEEB219CB40E009A2027;
+			remoteInfo = MusicSongsAlamofire;
+		};
+		5648DF0C219CB40F009A2027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5648DEE4219CB40E009A2027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5648DEEB219CB40E009A2027;
+			remoteInfo = MusicSongsAlamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1765FFFF549163509C3960E9 /* Pods-MusicSongsAlamofireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofireTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofireTests/Pods-MusicSongsAlamofireTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CFE5DD4F1D6FC4F9649D48D /* Pods-MusicSongsAlamofireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofireTests/Pods-MusicSongsAlamofireTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DAE2AC955B3EFAC432F5529 /* Pods_MusicSongsAlamofireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicSongsAlamofireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		372D7A01BB2128D7C57D6BCC /* Pods-MusicSongsAlamofireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofireUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofireUITests/Pods-MusicSongsAlamofireUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B5843F93CC419B77B9CAA19 /* Pods_MusicSongsAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicSongsAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5648DEEC219CB40E009A2027 /* MusicSongsAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSongsAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5648DEEF219CB40E009A2027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5648DEF1219CB40E009A2027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5648DEF4219CB40E009A2027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5648DEF6219CB40F009A2027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5648DEF9219CB40F009A2027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5648DEFB219CB40F009A2027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5648DF00219CB40F009A2027 /* MusicSongsAlamofireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicSongsAlamofireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5648DF04219CB40F009A2027 /* MusicSongsAlamofireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSongsAlamofireTests.swift; sourceTree = "<group>"; };
+		5648DF06219CB40F009A2027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5648DF0B219CB40F009A2027 /* MusicSongsAlamofireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicSongsAlamofireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5648DF0F219CB40F009A2027 /* MusicSongsAlamofireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSongsAlamofireUITests.swift; sourceTree = "<group>"; };
+		5648DF11219CB40F009A2027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F0B542A80F4DA2318E9F24 /* Pods_MusicSongsAlamofireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicSongsAlamofireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB808CD6BDBD3C7DF052675 /* Pods-MusicSongsAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofire/Pods-MusicSongsAlamofire.release.xcconfig"; sourceTree = "<group>"; };
+		B01A02C8E83D10119B1B149F /* Pods-MusicSongsAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofire/Pods-MusicSongsAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		E5270796697AD4632C3F48D0 /* Pods-MusicSongsAlamofireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofireUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofireUITests/Pods-MusicSongsAlamofireUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5648DEE9219CB40E009A2027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351556D2B480131AEB3D329F /* Pods_MusicSongsAlamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5648DEFD219CB40F009A2027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB5EFA4E60898972A0D60D4 /* Pods_MusicSongsAlamofireTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5648DF08219CB40F009A2027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793048D681395A43F7B39D1F /* Pods_MusicSongsAlamofireUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5648DEE3219CB40E009A2027 = {
+			isa = PBXGroup;
+			children = (
+				5648DEEE219CB40E009A2027 /* MusicSongsAlamofire */,
+				5648DF03219CB40F009A2027 /* MusicSongsAlamofireTests */,
+				5648DF0E219CB40F009A2027 /* MusicSongsAlamofireUITests */,
+				5648DEED219CB40E009A2027 /* Products */,
+				59031ADB5691F6AB4E8FDB5F /* Pods */,
+				B04ECEA9802A596D54030186 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5648DEED219CB40E009A2027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5648DEEC219CB40E009A2027 /* MusicSongsAlamofire.app */,
+				5648DF00219CB40F009A2027 /* MusicSongsAlamofireTests.xctest */,
+				5648DF0B219CB40F009A2027 /* MusicSongsAlamofireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5648DEEE219CB40E009A2027 /* MusicSongsAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				5648DEEF219CB40E009A2027 /* AppDelegate.swift */,
+				5648DEF1219CB40E009A2027 /* ViewController.swift */,
+				5648DEF3219CB40E009A2027 /* Main.storyboard */,
+				5648DEF6219CB40F009A2027 /* Assets.xcassets */,
+				5648DEF8219CB40F009A2027 /* LaunchScreen.storyboard */,
+				5648DEFB219CB40F009A2027 /* Info.plist */,
+			);
+			path = MusicSongsAlamofire;
+			sourceTree = "<group>";
+		};
+		5648DF03219CB40F009A2027 /* MusicSongsAlamofireTests */ = {
+			isa = PBXGroup;
+			children = (
+				5648DF04219CB40F009A2027 /* MusicSongsAlamofireTests.swift */,
+				5648DF06219CB40F009A2027 /* Info.plist */,
+			);
+			path = MusicSongsAlamofireTests;
+			sourceTree = "<group>";
+		};
+		5648DF0E219CB40F009A2027 /* MusicSongsAlamofireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5648DF0F219CB40F009A2027 /* MusicSongsAlamofireUITests.swift */,
+				5648DF11219CB40F009A2027 /* Info.plist */,
+			);
+			path = MusicSongsAlamofireUITests;
+			sourceTree = "<group>";
+		};
+		59031ADB5691F6AB4E8FDB5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B01A02C8E83D10119B1B149F /* Pods-MusicSongsAlamofire.debug.xcconfig */,
+				AAB808CD6BDBD3C7DF052675 /* Pods-MusicSongsAlamofire.release.xcconfig */,
+				1765FFFF549163509C3960E9 /* Pods-MusicSongsAlamofireTests.debug.xcconfig */,
+				1CFE5DD4F1D6FC4F9649D48D /* Pods-MusicSongsAlamofireTests.release.xcconfig */,
+				E5270796697AD4632C3F48D0 /* Pods-MusicSongsAlamofireUITests.debug.xcconfig */,
+				372D7A01BB2128D7C57D6BCC /* Pods-MusicSongsAlamofireUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B04ECEA9802A596D54030186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5843F93CC419B77B9CAA19 /* Pods_MusicSongsAlamofire.framework */,
+				96F0B542A80F4DA2318E9F24 /* Pods_MusicSongsAlamofireTests.framework */,
+				2DAE2AC955B3EFAC432F5529 /* Pods_MusicSongsAlamofireUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5648DEEB219CB40E009A2027 /* MusicSongsAlamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5648DF14219CB40F009A2027 /* Build configuration list for PBXNativeTarget "MusicSongsAlamofire" */;
+			buildPhases = (
+				141B9C148EBAB66625BCC4E5 /* [CP] Check Pods Manifest.lock */,
+				5648DEE8219CB40E009A2027 /* Sources */,
+				5648DEE9219CB40E009A2027 /* Frameworks */,
+				5648DEEA219CB40E009A2027 /* Resources */,
+				366A248A265AF383D7607265 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicSongsAlamofire;
+			productName = MusicSongsAlamofire;
+			productReference = 5648DEEC219CB40E009A2027 /* MusicSongsAlamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5648DEFF219CB40F009A2027 /* MusicSongsAlamofireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5648DF17219CB40F009A2027 /* Build configuration list for PBXNativeTarget "MusicSongsAlamofireTests" */;
+			buildPhases = (
+				7B5CED7A65CA02824792D5C1 /* [CP] Check Pods Manifest.lock */,
+				5648DEFC219CB40F009A2027 /* Sources */,
+				5648DEFD219CB40F009A2027 /* Frameworks */,
+				5648DEFE219CB40F009A2027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5648DF02219CB40F009A2027 /* PBXTargetDependency */,
+			);
+			name = MusicSongsAlamofireTests;
+			productName = MusicSongsAlamofireTests;
+			productReference = 5648DF00219CB40F009A2027 /* MusicSongsAlamofireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5648DF0A219CB40F009A2027 /* MusicSongsAlamofireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5648DF1A219CB40F009A2027 /* Build configuration list for PBXNativeTarget "MusicSongsAlamofireUITests" */;
+			buildPhases = (
+				63DF11F4C1A757D9C681DF23 /* [CP] Check Pods Manifest.lock */,
+				5648DF07219CB40F009A2027 /* Sources */,
+				5648DF08219CB40F009A2027 /* Frameworks */,
+				5648DF09219CB40F009A2027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5648DF0D219CB40F009A2027 /* PBXTargetDependency */,
+			);
+			name = MusicSongsAlamofireUITests;
+			productName = MusicSongsAlamofireUITests;
+			productReference = 5648DF0B219CB40F009A2027 /* MusicSongsAlamofireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5648DEE4219CB40E009A2027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Gerardo;
+				TargetAttributes = {
+					5648DEEB219CB40E009A2027 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5648DEFF219CB40F009A2027 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5648DEEB219CB40E009A2027;
+					};
+					5648DF0A219CB40F009A2027 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5648DEEB219CB40E009A2027;
+					};
+				};
+			};
+			buildConfigurationList = 5648DEE7219CB40E009A2027 /* Build configuration list for PBXProject "MusicSongsAlamofire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5648DEE3219CB40E009A2027;
+			productRefGroup = 5648DEED219CB40E009A2027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5648DEEB219CB40E009A2027 /* MusicSongsAlamofire */,
+				5648DEFF219CB40F009A2027 /* MusicSongsAlamofireTests */,
+				5648DF0A219CB40F009A2027 /* MusicSongsAlamofireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5648DEEA219CB40E009A2027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5648DEFA219CB40F009A2027 /* LaunchScreen.storyboard in Resources */,
+				5648DEF7219CB40F009A2027 /* Assets.xcassets in Resources */,
+				5648DEF5219CB40E009A2027 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5648DEFE219CB40F009A2027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5648DF09219CB40F009A2027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141B9C148EBAB66625BCC4E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicSongsAlamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		366A248A265AF383D7607265 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MusicSongsAlamofire/Pods-MusicSongsAlamofire-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicSongsAlamofire/Pods-MusicSongsAlamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63DF11F4C1A757D9C681DF23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicSongsAlamofireUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5CED7A65CA02824792D5C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicSongsAlamofireTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5648DEE8219CB40E009A2027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5648DEF2219CB40E009A2027 /* ViewController.swift in Sources */,
+				5648DEF0219CB40E009A2027 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5648DEFC219CB40F009A2027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5648DF05219CB40F009A2027 /* MusicSongsAlamofireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5648DF07219CB40F009A2027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5648DF10219CB40F009A2027 /* MusicSongsAlamofireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5648DF02219CB40F009A2027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5648DEEB219CB40E009A2027 /* MusicSongsAlamofire */;
+			targetProxy = 5648DF01219CB40F009A2027 /* PBXContainerItemProxy */;
+		};
+		5648DF0D219CB40F009A2027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5648DEEB219CB40E009A2027 /* MusicSongsAlamofire */;
+			targetProxy = 5648DF0C219CB40F009A2027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5648DEF3219CB40E009A2027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5648DEF4219CB40E009A2027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5648DEF8219CB40F009A2027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5648DEF9219CB40F009A2027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5648DF12219CB40F009A2027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5648DF13219CB40F009A2027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5648DF15219CB40F009A2027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01A02C8E83D10119B1B149F /* Pods-MusicSongsAlamofire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = MusicSongsAlamofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.MusicSongsAlamofire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5648DF16219CB40F009A2027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB808CD6BDBD3C7DF052675 /* Pods-MusicSongsAlamofire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = MusicSongsAlamofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.MusicSongsAlamofire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5648DF18219CB40F009A2027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1765FFFF549163509C3960E9 /* Pods-MusicSongsAlamofireTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = MusicSongsAlamofireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.MusicSongsAlamofireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicSongsAlamofire.app/MusicSongsAlamofire";
+			};
+			name = Debug;
+		};
+		5648DF19219CB40F009A2027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFE5DD4F1D6FC4F9649D48D /* Pods-MusicSongsAlamofireTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = MusicSongsAlamofireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.MusicSongsAlamofireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicSongsAlamofire.app/MusicSongsAlamofire";
+			};
+			name = Release;
+		};
+		5648DF1B219CB40F009A2027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5270796697AD4632C3F48D0 /* Pods-MusicSongsAlamofireUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = MusicSongsAlamofireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.MusicSongsAlamofireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicSongsAlamofire;
+			};
+			name = Debug;
+		};
+		5648DF1C219CB40F009A2027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372D7A01BB2128D7C57D6BCC /* Pods-MusicSongsAlamofireUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = MusicSongsAlamofireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.MusicSongsAlamofireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicSongsAlamofire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5648DEE7219CB40E009A2027 /* Build configuration list for PBXProject "MusicSongsAlamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5648DF12219CB40F009A2027 /* Debug */,
+				5648DF13219CB40F009A2027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5648DF14219CB40F009A2027 /* Build configuration list for PBXNativeTarget "MusicSongsAlamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5648DF15219CB40F009A2027 /* Debug */,
+				5648DF16219CB40F009A2027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5648DF17219CB40F009A2027 /* Build configuration list for PBXNativeTarget "MusicSongsAlamofireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5648DF18219CB40F009A2027 /* Debug */,
+				5648DF19219CB40F009A2027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5648DF1A219CB40F009A2027 /* Build configuration list for PBXNativeTarget "MusicSongsAlamofireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5648DF1B219CB40F009A2027 /* Debug */,
+				5648DF1C219CB40F009A2027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5648DEE4219CB40E009A2027 /* Project object */;
+}

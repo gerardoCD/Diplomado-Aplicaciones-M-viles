@@ -1,0 +1,6 @@
+framework module Pods_MusicSongsAlamofireUITests {
+  umbrella header "Pods-MusicSongsAlamofireUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
