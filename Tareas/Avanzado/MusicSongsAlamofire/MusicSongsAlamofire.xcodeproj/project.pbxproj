@@ -15,6 +15,8 @@
 		5648DEFA219CB40F009A2027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5648DEF8219CB40F009A2027 /* LaunchScreen.storyboard */; };
 		5648DF05219CB40F009A2027 /* MusicSongsAlamofireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5648DF04219CB40F009A2027 /* MusicSongsAlamofireTests.swift */; };
 		5648DF10219CB40F009A2027 /* MusicSongsAlamofireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5648DF0F219CB40F009A2027 /* MusicSongsAlamofireUITests.swift */; };
+		56C27F90219CC778009FCBF1 /* ControllerSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C27F8F219CC778009FCBF1 /* ControllerSong.swift */; };
+		56C27F93219CD585009FCBF1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C27F92219CD585009FCBF1 /* Song.swift */; };
 		793048D681395A43F7B39D1F /* Pods_MusicSongsAlamofireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAE2AC955B3EFAC432F5529 /* Pods_MusicSongsAlamofireUITests.framework */; };
 		DBB5EFA4E60898972A0D60D4 /* Pods_MusicSongsAlamofireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F0B542A80F4DA2318E9F24 /* Pods_MusicSongsAlamofireTests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		5648DF0B219CB40F009A2027 /* MusicSongsAlamofireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicSongsAlamofireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5648DF0F219CB40F009A2027 /* MusicSongsAlamofireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSongsAlamofireUITests.swift; sourceTree = "<group>"; };
 		5648DF11219CB40F009A2027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C27F8F219CC778009FCBF1 /* ControllerSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerSong.swift; sourceTree = "<group>"; };
+		56C27F92219CD585009FCBF1 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		96F0B542A80F4DA2318E9F24 /* Pods_MusicSongsAlamofireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicSongsAlamofireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB808CD6BDBD3C7DF052675 /* Pods-MusicSongsAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofire/Pods-MusicSongsAlamofire.release.xcconfig"; sourceTree = "<group>"; };
 		B01A02C8E83D10119B1B149F /* Pods-MusicSongsAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSongsAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSongsAlamofire/Pods-MusicSongsAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +118,9 @@
 		5648DEEE219CB40E009A2027 /* MusicSongsAlamofire */ = {
 			isa = PBXGroup;
 			children = (
+				56C27F94219CF769009FCBF1 /* Controllers */,
+				56C27F91219CD572009FCBF1 /* Models */,
 				5648DEEF219CB40E009A2027 /* AppDelegate.swift */,
-				5648DEF1219CB40E009A2027 /* ViewController.swift */,
 				5648DEF3219CB40E009A2027 /* Main.storyboard */,
 				5648DEF6219CB40F009A2027 /* Assets.xcassets */,
 				5648DEF8219CB40F009A2027 /* LaunchScreen.storyboard */,
@@ -140,6 +145,23 @@
 				5648DF11219CB40F009A2027 /* Info.plist */,
 			);
 			path = MusicSongsAlamofireUITests;
+			sourceTree = "<group>";
+		};
+		56C27F91219CD572009FCBF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56C27F92219CD585009FCBF1 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56C27F94219CF769009FCBF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56C27F8F219CC778009FCBF1 /* ControllerSong.swift */,
+				5648DEF1219CB40E009A2027 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		59031ADB5691F6AB4E8FDB5F /* Pods */ = {
@@ -391,6 +413,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C27F93219CD585009FCBF1 /* Song.swift in Sources */,
+				56C27F90219CC778009FCBF1 /* ControllerSong.swift in Sources */,
 				5648DEF2219CB40E009A2027 /* ViewController.swift in Sources */,
 				5648DEF0219CB40E009A2027 /* AppDelegate.swift in Sources */,
 			);
